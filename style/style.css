@@ -1,3 +1,7 @@
-.nav-bar{
+.nav-bar {
     width: 100%;
+}
+
+.nav-bar a {
+    padding-left: 2%;
 }
