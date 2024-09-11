@@ -7,9 +7,16 @@
     padding-left: 2%;
     font-size: 36px;
     color: white;
+    font-weight: bold;
+}
+
+.mid {
+    text-align: center;
 }
 
 #app-icon {
     float: right;
     font-size:36px;
+    padding-right: 1%;
+    padding-top: 0.5%;
 }
