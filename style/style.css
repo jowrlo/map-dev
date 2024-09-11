@@ -10,5 +10,6 @@
 }
 
 #app-icon {
-    align-items: end;
+    float: right;
+    font-size:36px;
 }
