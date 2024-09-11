@@ -1,7 +1,14 @@
 .nav-bar {
     width: 100%;
+    background-color: #130f3f;
 }
 
 .nav-bar a {
     padding-left: 2%;
+    font-size: 36px;
+    color: white;
+}
+
+.nav-bar app-icon {
+    align-items: end;
 }
