@@ -1,7 +1,8 @@
 const apps = document.querySelector('.material-icons');
+const widgets = document.querySelector('#widget-box')
 
 function openWidgets() {
-    $('#widget-box').show()
+    widgets.show()
 }
 
 apps.onclick = openWidgets;
