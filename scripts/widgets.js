@@ -1,4 +1,4 @@
-const apps = document.querySelector('.material-icons');
+const logo = document.querySelector('#logo');
 const widgets = document.querySelector('#widget-box');
 const title = document.querySelector('#title');
 
@@ -7,4 +7,4 @@ function openWidgets() {
     title.innerText = "Updated";
 }
 
-apps.onclick = openWidgets();
+logo.onclick = openWidgets();
