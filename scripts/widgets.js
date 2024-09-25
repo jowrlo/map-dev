@@ -1,4 +1,4 @@
-const apps = document.querySelector('app-icon');
+const apps = document.querySelector('.material-icons');
 
 function openWidgets() {
     $('#widget-box').show()
