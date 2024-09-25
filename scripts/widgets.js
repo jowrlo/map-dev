@@ -2,7 +2,7 @@ const apps = document.querySelector('.material-icons');
 const widgets = document.querySelector('#widget-box')
 
 function openWidgets() {
-    widgets.show()
+    widgets.style.display = "block";
 }
 
-apps.onclick = openWidgets;
+apps.onclick = openWidgets();
