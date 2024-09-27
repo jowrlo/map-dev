@@ -16,3 +16,6 @@ function closeWidgets() {
 
 button1.onclick = openWidgets();
 button2.onclick = closeWidgets();
+
+console.log(title.innerText)
+console.log(button1.innerText)
