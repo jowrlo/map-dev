@@ -1,8 +1,8 @@
 const logo = document.querySelector('#logo');
 const widgets = document.querySelector('#widget-box');
-var title = document.querySelector('#title');
-const button1 = document.querySelector('#button1')
-const button2 = document.querySelector('#button2')
+const title = document.querySelector('#title');
+const button1 = document.querySelector('#button1');
+const button2 = document.querySelector('#button2');
 
 function openWidgets() {
     widgets.style.display = "block";
