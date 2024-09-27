@@ -1,6 +1,6 @@
 const logo = document.querySelector('#logo');
 const widgets = document.querySelector('#widget-box');
-const title = document.querySelector('#title');
+var title = document.querySelector('#title');
 const button1 = document.querySelector('#button1')
 const button2 = document.querySelector('#button2')
 
