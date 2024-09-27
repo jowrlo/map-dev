@@ -16,5 +16,7 @@ function closeWidgets() {
     console.log(title.innerText);
 }
 
-button1.onclick = openWidgets();
-button2.onclick = closeWidgets();
+button1.onmousedown = openWidgets;
+button2.onmousedown = closeWidgets;
+console.log(widgets.style.display);
+console.log(title);
