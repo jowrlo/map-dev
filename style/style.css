@@ -43,3 +43,7 @@
 #widget-box {
     display: none;
 }
+
+#title {
+    font: Arial, Helvetica, sans-serif;
+}
