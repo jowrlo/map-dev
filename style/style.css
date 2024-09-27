@@ -1,6 +1,7 @@
 .nav-bar {
     width: 100%;
     background-color: #0c0749;
+    height: 60px;
 }
 
 .nav-bar a {
@@ -8,6 +9,12 @@
     font-size: 36px;
     color: white;
     font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.nav-bar .subtitle {
+    font-weight: normal;
+    font-family: Arial, sans-serif;
 }
 
 .mid {
@@ -17,17 +24,25 @@
 #app-icon {
     float: right;
     font-size:36px;
-    padding-right: 1%;
-    padding-top: 0.5%;
+    padding-right: 10px;
+    padding-top: 15px;
 }
 
 #logo {
     width: 50px;
     height: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 #widget-box {
     background-color: lightblue;
+    display: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
 }
 
 #map {
@@ -38,12 +53,4 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #323232;
-}
-
-#widget-box {
-    display: none;
-}
-
-#title {
-    font: Arial, Helvetica, sans-serif;
 }
