@@ -7,15 +7,14 @@ const button2 = document.querySelector('#button2')
 function openWidgets() {
     widgets.style.display = "block";
     title.innerText = "Updated";
+    console.log(title.innerText);
 }
 
 function closeWidgets() {
     widgets.style.display = "none";
     title.innerText = "GIS Test";
+    console.log(title.innerText);
 }
 
 button1.onclick = openWidgets();
 button2.onclick = closeWidgets();
-
-console.log(title.innerText)
-console.log(button1.innerText)
